@@ -1,0 +1,19 @@
+/* Add any CSS styles you want for your simulation */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#simulation-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#simulation-canvas {
+    border: 1px solid #000;
+}
